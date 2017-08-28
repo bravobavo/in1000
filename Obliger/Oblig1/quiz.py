@@ -12,7 +12,6 @@ round0 = input(questions[0])
 if round0.lower() == answers[0].lower():
     points += 3
     print(answers[0] + " is correct!\nYou gained three points!")
-
 #Else if one part is mentioned. User gets another chance
 elif round0.lower() == "stieg" or round0.lower() == "larsson":
     points += 1
