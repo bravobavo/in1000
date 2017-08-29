@@ -4,24 +4,25 @@ class Population:
         self.animals = []
         self.totalPopulation = 0
 
+    def addSpecies:
+        # QUESTION:
+        print("Yohooo")
+
     def log(self):
         newPop = input("What population is this?")
-        with open ("data.txt", "a") as myFile:
+        with open("data.txt", "a") as myFile:
             myFile.write(newPop + "\nHUMANS:")
-            i=0
-            while i < len(self.humans):
-                myFile.write(str(self.humans[i]))
-        #with open("data2.txt", "a") as myfile:
-        #myfile.write('%s\n%s\n%s\n' % (round.question, round.answer, round.points))
-        #text_file = open(filename, "r")
-        #lines = text_file.readlines()
-        #text_file.close()
+            for i in self.humans:
+                myFile.write(i.name)
+
     def getLog(self):
-        text_file = open filename("data.txt","r")
+        text_file = open("data.txt","r")
         lines = text_file.readlines()
         text_file.close()
-        while i <= (len(lines)):
-            print(lines)
+        i = 0
+        while i < len(lines):
+            print(lines[i])
+            i += 1
 
 
 class Species:
@@ -39,16 +40,14 @@ class Species:
 #INPUT
 firstPopulation = Population()
 dog = Species("animals", "Bobo")
-dog = Species("animals", "Boasdbo")
-dog = Species("animals", "Bsobo")
-dog = Species("animals", "Bosadbo")
-dog = Species("animals", "Bsaobo")
-human = Species("humans", "obo")
-human = Species("humans", "asdaobo")
-human = Species("humans", "wobo")
+dog1 = Species("animals", "Boasdbo")
+dog2 = Species("animals", "Bsobo")
+dog3 = Species("animals", "Bosadbo")
+dog4 = Species("animals", "Bsaobo")
+human1 = Species("humans", "obo")
+human2 = Species("humans", "asdaobo")
+human3 = Species("humans", "wobo")
 
 dog.show()
 firstPopulation.log()
 firstPopulation.getLog()
-print(firstPopulation.totalPopulation)
-print(firstPopulation.animals)
