@@ -1,0 +1,7 @@
+------ HELP AND TIPS ------
+Defense and the attack will be compared to determine the outcome during nighttime
+All three attributes are prone to be insuffficient the player's defence.
+Certain actions might be overcome a weakness of the new fox, resulting in a win.
+The less chickens, the less money you earn during the preparation stage.
+On the other side, the more chickens you lose; the more enraged you become.
+The enraged factor is will be added to your sum of defense as a helping hand
