@@ -5,3 +5,5 @@ Certain actions might be overcome a weakness of the new fox, resulting in a win.
 The less chickens, the less money you earn during the preparation stage.
 On the other side, the more chickens you lose; the more enraged you become.
 The enraged factor is will be added to your sum of defense as a helping hand
+Ctrl+Alt+U = Show usage! Ctrl+Alt+G = Goto!
+ehfugler@ifi.no  = IN1050
