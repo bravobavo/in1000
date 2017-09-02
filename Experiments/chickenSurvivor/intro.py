@@ -1,5 +1,5 @@
 input("Far, far, far...\nIn the woods of a farmer...\n"+
-      "A sly fox lurks from underneath the many trees...")
+      "A sly fox lurks from underneath the many trees.....")
 input("Ready to kill!")
 print("Your goal is to stop the fox from killing all your precious chickens...")
 help = input("Are you ready? (y/help)\n")

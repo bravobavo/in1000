@@ -1,26 +1,18 @@
 from random import randint
 class User:
-    def __init__(self, username, currency, enraged):
+    def __init__(self, username, currency, enraged, defence):
         self.username = username
         self.currency = currency
         self.enraged = enraged
+        self.defence = defence
 
 class Chicken:
-    def __init__(self, option):
+    def __init__(self, option,num):
         if option == "y":
-            name = input("Name for chicken nr."+num)
+            name = input("Name for chicken nr."+str(num) + ": ")
             self.name = name
-        elif option == "n":
-            self.name = "chicken"+str(num)
         else:
-            surviving = False
-
-    def produceEggs(self):
-        eggs = 0
-        for i in range (self.chickenList):
-            egg = r(0,1)
-        return eggs
-
+            self.name = "chicken"+str(num)
 
 class Fox:
     agility = 0

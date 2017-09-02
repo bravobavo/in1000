@@ -7,3 +7,17 @@ On the other side, the more chickens you lose; the more enraged you become.
 The enraged factor is will be added to your sum of defense as a helping hand
 Ctrl+Alt+U = Show usage! Ctrl+Alt+G = Goto!
 ehfugler@ifi.no  = IN1050
+Om natten skal brukeren ha en sjanse på å få en høne dersom det er igjen egg
+
+
+REMOVE OBJECT in list
+x = object()
+y = object()
+array = [x, y]
+array.pop(0)
+# Using the del statement
+del array[0]
+
+
+#Destroys a den, hinders foxes to get back following day
+#Send a dog
