@@ -1,0 +1,40 @@
+//Welcome
+
+//TERMINAL
+//basic
+mkdir = ny mappe
+pwd = currrent directory
+ls = list current folder
+cd + [folder name] = change to directory
+cd . = change current destination
+cd .. = back out of current directory
+/ = root
+~ = home folder
+rm = remove file
+clear = clear
+
+
+//advanced
+sudo apt-get-install ... = example of installing
+alias [x] = make new command
+chhmod = changes permission
+dpkg -i my.deb
+
+//certain options
+ls -X = list beginning on x
+
+//permissions
+u = user
+g = group
+o = other
+read = read permission
+write = write permission
+execute = x
+
+//VIM
+//vim er en text editor
+avslutte OG LAGRE = esc + :x + enter
+avslutte uten å lagre = esc + :q! + enter
+endre en fil = i
+
+xdg-open . = opens current directory

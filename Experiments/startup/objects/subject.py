@@ -4,7 +4,7 @@ class Population:
         self.animals = []
         self.totalPopulation = 0
 
-    def addSpecies:
+    def addSpecies(self):
         # QUESTION:
         print("Yohooo")
 
@@ -24,7 +24,6 @@ class Population:
             print(lines[i])
             i += 1
 
-
 class Species:
     def __init__(self, species, name):
         self.name = name
@@ -36,7 +35,6 @@ class Species:
 
     def show (self):
         print("Er en hund")
-
 #INPUT
 firstPopulation = Population()
 dog = Species("animals", "Bobo")
@@ -51,3 +49,18 @@ human3 = Species("humans", "wobo")
 dog.show()
 firstPopulation.log()
 firstPopulation.getLog()
+
+class Transport:
+    count = 0
+    def __init__(self, transportType, maxSpeed):
+        Transport.count += 1
+        self.count = Transport.count
+        self.transportType = transportType
+        self.maxSpeed = maxSpeed
+
+    def showSpeed(self):
+        print("My speed is: "+ self.maxSpeed)
+
+vehicle = Transport("car", "90km" )
+vehicle.showSpeed ()
+print(Transport.count)

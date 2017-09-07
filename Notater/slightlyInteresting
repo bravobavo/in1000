@@ -1,0 +1,16 @@
+#OBS!!! Trenger ezgraphics
+import ezgraphics.py
+from ezgraphics.py import GraphicsWindow
+window = GraphicsWindow()
+canvas = window.canvas()
+------------------------------Boring ^
+arrayX = [1945, 1820, 2013]
+arrayX.count(1945) #1
+
+terninger = []
+for _ in range(0,10):
+  terninger.append(int(input("Skriv inn terningkast")))
+
+terning = set(terninger)
+if len(terning)==1:
+print(yatsi)

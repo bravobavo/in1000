@@ -10,3 +10,4 @@ def utskriftsfunksjon():
 
 for _ in range(3):
     utskriftsfunksjon()
+#The undescore specifies a value of non importance

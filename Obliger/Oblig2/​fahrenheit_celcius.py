@@ -1,19 +1,32 @@
 #fahrenheit
 fahrenheit = 10
-print(fahrenheit)
+print("Temperatur i fahrenheit er %s" % (fahrenheit))
 #celcius
 temperatur = float((fahrenheit - 32)*5/9)
-print(temperatur)
+print("Temperatur i celcius er %s" % (temperatur))
 
-def calclulate():
-    runEver = True
-    while runEver:
-        temp = input("Skriv inn tempen\n")
-        if isinstance(temp, float) or isinstance(temp, int):
-            temp = float((fahrenheit - 32)*5/9)
-            print(temp)
-        elif temp == "x":
-            runEver = False
+
+def inputNumber(message):
+    while True:
+        try:
+           number = int(input(message))
+        except ValueError:
+           print("Not an integer! Try again.")
+           continue
         else:
-            print("Would you please write a number, or exit using x?")
-calclulate()
+           return number
+           break
+
+def calculate ():
+    looping = True
+    while looping:
+        number = inputNumber("Skriv inn temperatur i fahrenheit : ")
+        convTemp = float((number - 32)*5/9)
+        print("Your temperatue in celcius is "+str(convTemp))
+        choice = input("Press x to exit")
+        if choice == "x":
+            looping = False
+        else:
+            print("Starting over again")
+
+calculate()
