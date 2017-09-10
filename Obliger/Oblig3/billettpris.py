@@ -77,40 +77,6 @@ The man below replies, "You must work in management."
 but you expect me to be able to help.
 You’re in the same position you were before we met, but now it’s my fault."
 
-
-... en tredje? (87,9%  likes)..
-
-
-One day Bill complained to his friend that his elbow really hurt.
-His friend suggested that he go to a computer at the drug store that
-can diagnose anything quicker and cheaper than a doctor.
-"Simply put in a sample of your urine and the computer
-will diagnose your problem and tell you what you can do about it.
-It only costs $10."
-Bill figured he had nothing to lose,
-so he filled a jar with a urine sample andwent to the drug store.
-Finding the computer, he poured in the sample and deposited the $10.
-The computer started making some noise and various lights started flashing.
-After a brief pause out popped a small slip of paper on which was printed:
-You have tennis elbow.
-Soak your arm in warm water.
-Avoid heavy lifting.
-It will be better in two weeks."
-Later that evening while thinking how amazing this new technology was and
-how it would change medical science forever,
-he began to wonder if this machine could be fooled.
-He mixed together some tap water, a stool sample from his dog and urine samples
-from his wife and daughter.
-To top it off, he masturbated into the concoction.
-He went back to the drug store, located the machine, poured in the sample and deposited the $10.
-The computer again made the usual noise and printed out the following message:
-"Your tap water is too hard. Get a water softener.
-Your dog has worms. Get him vitamins.
-Your daughter is using cocaine. Put her in a rehabilitation clinic.
-Your wife is pregnant with twin girls. They aren't yours. Get a lawyer.
-And if you don't stop jerking off, your tennis elbow will never get better."
-
-
 ... siste, jeg lover!
 
 A young Programmer and his Project Manager board a train headed through the mountains on its way to Wichita.
@@ -131,4 +97,4 @@ The young programmer sat there with a satisfied smile on his face. He thought to
 "Life is good.
 How often does a guy have the chance to kiss a beautiful girl
 and slap his Project manager all at the same time!"
-    '''
+'''

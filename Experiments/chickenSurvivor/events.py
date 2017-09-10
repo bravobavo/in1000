@@ -33,7 +33,7 @@ class Game:
         if self.eggs > 10 and self.eMagnitude > 2.2:
             self.chickens.append(Chicken("y",1))
         else:
-            print("no chick")
+            print("\nNo chicken born today")
 
     ### ATTACK AND DEFENCE ###
     foxesAttackTotal=0
@@ -116,9 +116,9 @@ class Game:
                     self.buy(i[2], u)
                 elif itemChoice == "corn":
                     self.buy(i[3], u)
-                elif itemChoice == "gun":
-                    self.buy(i[4], u)
                 elif itemChoice == "drugs":
+                    self.buy(i[4], u)
+                elif itemChoice == "gun":
                     self.buy(items[5], u)
                 else:
                     print(itemChoice+' is not a valid option')
